@@ -1,0 +1,44 @@
+extends layout
+
+block content
+    
+    
+    
+
+    html
+        head
+            style
+                include style.css
+                body
+            
+                
+
+
+                
+
+    // Wrapper
+    #wrapper
+
+        // USER LIST
+        
+        #userList
+            table
+                thead
+                    th Total Issues
+                        tr
+                            td #{json[0]}
+                    th  Last 24 hours
+                        tr
+                            td #{json[1]}
+                    th Last 7 days 
+                        tr
+                            td #{json[2]}
+                    th  Beyond 7 days 
+                        tr
+                            td #{json[3]}
+                tbody
+        // /USER LIST
+
+        
+
+    // /WRAPPER
