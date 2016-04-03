@@ -12,9 +12,9 @@ var app = express();
 
 //var controller =  require('./routes')({app: app});
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
-var api = require('./routes/apiCall');
+var routes = require('./index');
+var users = require('./users');
+var api = require('./apiCall');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
