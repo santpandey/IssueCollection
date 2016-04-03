@@ -13,7 +13,7 @@ var app = express();
 //var controller =  require('./routes')({app: app});
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
+//var users = require('./routes/users');
 var api = require('./routes/apiCall');
 
 // view engine setup
