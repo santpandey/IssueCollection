@@ -21,9 +21,6 @@
     "serve-favicon": "^2.3.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "start": "npm start app.js"
-  },
   "author": "",
   "license": "ISC"
 }
