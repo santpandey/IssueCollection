@@ -22,7 +22,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "npm start"
+    "start": "npm start app.js"
   },
   "author": "",
   "license": "ISC"
